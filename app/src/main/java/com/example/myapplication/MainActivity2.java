@@ -23,12 +23,12 @@ public class MainActivity2 extends AppCompatActivity {
         name = findViewById(R.id.name);
         phone = findViewById(R.id.mobile);
         age = findViewById(R.id.age);
-        gender = findViewById(R.id.age);
-        marital = findViewById(R.id.age);
-        domilcile = findViewById(R.id.age);
-        education = findViewById(R.id.age);
-        occupation = findViewById(R.id.age);
-        concern = findViewById(R.id.age);
+        gender = findViewById(R.id.gender);
+        marital = findViewById(R.id.marital_status);
+        domilcile = findViewById(R.id.domilcile);
+        education = findViewById(R.id.Education);
+        occupation = findViewById(R.id.Occupation);
+        concern = findViewById(R.id.Concerns);
 
 
         findViewById(R.id.submitButton).setOnClickListener(v -> {
